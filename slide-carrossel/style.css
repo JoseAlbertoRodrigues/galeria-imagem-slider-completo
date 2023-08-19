@@ -18,8 +18,7 @@ section.slider {
     display: flex;
 }
 
-.slider-content input {
-/* , .img-mobile  */
+.slider-content input, .img-mobile {
     display: none;
 }
 
