@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide Carrossel</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- https://www.youtube.com/watch?v=sk7mgXO-FeQ -->
+</head>
+<body>
+    <section class="slider">
+        <div class="slider-content">
+            <input type="radio" name="btn-radio" id="radio1">
+            <input type="radio" name="btn-radio" id="radio2">
+            <input type="radio" name="btn-radio" id="radio3">
+
+            <!-- slide box -->
+            <div class="slide-box first">
+                <!-- <img class="img-desktop" src="../image/photo-1.jpg" alt="slide2"> -->
+                <img class="img-mobile" src="../image/photo-1.jpg" alt="slide1">
+            </div>
+
+            <div class="slide-box">
+                <!-- <img class="img-desktop" src="../image/photo-1.jpg" alt="slide2"> -->
+                <img class="img-mobile" src="../image/photo-2.jpg" alt="slide2">
+            </div>
+
+            <div class="slide-box">
+                <!-- <img class="img-desktop" src="../image/photo-1.jpg" alt="slide2"> -->
+                <img class="img-mobile" src="../image/photo-2.jpg" alt="slide2">
+            </div>
+            <!-- fim slide box -->
+
+            <!-- navegação automatica -->
+            <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+            <!-- fim navegação automatica -->
+
+            <!-- navegação manual é com as label para os inputs-->
+            <div class="nav-auto">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+            <!-- fim navegação manual -->
+
+        </div>
+    </section>
+</body>
+</html>
