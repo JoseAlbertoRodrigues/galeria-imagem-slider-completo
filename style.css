@@ -97,3 +97,23 @@ body {
 .navigation-auto div:not(:last-child) {
     margin-right: 40px;
 }
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background-color: #fff;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background-color: #fff;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+    background-color: #fff;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+    background-color: #fff;
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5 {
+    background-color: #fff;
+}
